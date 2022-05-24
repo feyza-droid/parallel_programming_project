@@ -10,8 +10,12 @@ binary heap and adjacency list 	O ( ( | V | + | E | ) log ⁡ | V | ) = O ( | E 
 
 Fibonacci heap and adjacency list 	O ( | E | + | V | log ⁡ | V | )
 
+TODO: make sure generated graphs are complete (no singleton?)
 
+```
+https://github.com/arturocastro/ParallelMST
 https://en.wikipedia.org/wiki/Minimum_spanning_tree
 https://en.wikipedia.org/wiki/Prim%27s_algorithm
 https://stackabuse.com/graphs-in-python-minimum-spanning-trees-prims-algorithm/
 https://www.youtube.com/watch?v=cplfcGZmX7I
+```
