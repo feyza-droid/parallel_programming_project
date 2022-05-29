@@ -1,0 +1,5 @@
+*.o
+*.o
+*.pdf
+codes/__pycache__/
+MST-Parallel

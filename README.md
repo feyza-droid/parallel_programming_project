@@ -6,12 +6,13 @@ Definition: A minimum spanning tree (MST) or minimum weight spanning tree is a s
 The time complexity of Prim's algorithm:
 adjacency matrix, searching 	O ( | V | 2 )
 binary heap and adjacency list 	O ( ( | V | + | E | ) log ⁡ | V | ) = O ( | E | log ⁡ | V | )
-fibonacci heap and adjacency list 	O ( | E | + | V | log ⁡ | V | )
+fibonacci heap and adjacency list O ( | E | + | V | log ⁡ | V | )
 ```
 
 TODO: make sure generated graphs are complete (no singleton?)
 
 ```
+https://github.com/nikitawani07/MST-Parallel
 https://github.com/arturocastro/ParallelMST
 https://en.wikipedia.org/wiki/Minimum_spanning_tree
 https://en.wikipedia.org/wiki/Prim%27s_algorithm
