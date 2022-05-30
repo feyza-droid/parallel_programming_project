@@ -292,6 +292,8 @@ int main(int argc, char* argv[]) {
 	WeightedGraph* graph = &(WeightedGraph ) { .edges = 0, .vertices = 0,.edgeList = NULL };
 	WeightedGraph* mst = &(WeightedGraph ) { .edges = 0, .vertices = 0,	.edgeList = NULL };
 
+	printf("Hello World from process %d of %d\n", rank, size);
+
 	if (rank == 0) {
 
 		// read the maze file and store it in the graph
